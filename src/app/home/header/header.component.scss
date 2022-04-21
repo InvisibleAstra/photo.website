@@ -1,0 +1,51 @@
+.home-header {
+  display: grid;
+  width: 100%;
+  height: 330px;
+  background-color: white;
+  padding-top: 25px;
+  justify-content: center;
+
+
+  .logo {
+    margin-bottom: 29px;
+     width: 130px;
+     height: 130px;
+
+    img {
+      margin-left: 25%;
+      width: inherit;
+      height: inherit;
+    }
+  }
+
+  .photograph_name {
+    font-size: 20px;
+    margin-bottom: 19px;
+  }
+
+  .contacts {
+    a {
+      text-decoration: none;
+      font-style: normal;
+      font-size: 16px;
+    }
+  }
+  .social{
+    ul{
+      list-style-type: none;
+    }
+  }
+
+  hr {
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .home-header {
+    padding-right: 24px;
+    padding-left: 24px;
+  }
+}
+
