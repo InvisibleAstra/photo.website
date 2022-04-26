@@ -9,6 +9,8 @@ import { AppBarComponent } from './home/app-bar/app-bar.component';
 import { PreviewCardComponent } from './home/preview-card/preview-card.component';
 import { CardAreaComponent } from './home/card-area/card-area.component';
 import { GalleryComponent } from './gallery/gallery.component';
+import { PhotoAreaComponent } from './gallery/photo-area/photo-area.component';
+import { PhotoComponent } from './gallery/photo/photo.component';
 
 @NgModule({
   declarations: [
@@ -18,7 +20,9 @@ import { GalleryComponent } from './gallery/gallery.component';
     AppBarComponent,
     PreviewCardComponent,
     CardAreaComponent,
-    GalleryComponent
+    GalleryComponent,
+    PhotoAreaComponent,
+    PhotoComponent
   ],
   imports: [
     BrowserModule,

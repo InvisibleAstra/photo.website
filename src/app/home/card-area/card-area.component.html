@@ -1,5 +1,5 @@
 <div class="cardArea">
-<app-preview-card></app-preview-card>
-<app-preview-card></app-preview-card>
-<app-preview-card></app-preview-card>
+  <div *ngFor="let title of titles">
+<app-preview-card [folderName]="title"></app-preview-card>
+  </div>
 </div>

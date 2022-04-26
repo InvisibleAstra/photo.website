@@ -26,7 +26,7 @@ describe('AppComponent', () => {
     expect(app.title).toEqual('photo.website');
   });
 
-  it('should render title', () => {
+  it('should render folderName', () => {
     const fixture = TestBed.createComponent(AppComponent);
     fixture.detectChanges();
     const compiled = fixture.nativeElement as HTMLElement;

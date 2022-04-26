@@ -1,4 +1,4 @@
-import { Component, OnInit } from '@angular/core';
+import {Component, Input, OnInit} from '@angular/core';
 
 @Component({
   selector: 'app-card-area',
@@ -6,8 +6,11 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./card-area.component.scss']
 })
 export class CardAreaComponent implements OnInit {
+  @Input() titles = [''];
 
-  constructor() { }
+  constructor() {
+  }
+
 
   ngOnInit(): void {
   }

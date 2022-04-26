@@ -1,7 +1,7 @@
 <div class="previewCard">
-  <a routerLink="">
-    <img src="assets/lic.jpg"/>
-    <p class="title">Люцифер</p>
+  <a [routerLink]="routeLink">
+    <img [src]="logoUrl"/>
+    <p class="title">{{title}}</p>
   </a>
-  <p class="data">02 ноября 2021</p>
+  <p class="data">{{date}}</p>
 </div>
