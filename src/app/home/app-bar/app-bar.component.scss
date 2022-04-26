@@ -1,0 +1,14 @@
+.appBar {
+  margin-top: 60px;
+  margin-bottom: 52px;
+  text-align: center;
+  .list {
+    list-style-type: none;
+
+    li {
+      display: inline;
+      margin-right: 25px;
+    }
+  }
+
+}

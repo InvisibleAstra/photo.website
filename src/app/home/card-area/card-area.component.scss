@@ -1,0 +1,12 @@
+.cardArea {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-column-gap: 20px;
+
+}
+
+@media screen and (max-width: 768px) {
+  .cardArea {
+    grid-template-columns: repeat(1, 1fr);
+  }
+}
