@@ -1,6 +1,9 @@
 .photo{
+margin: 5px;
   img {
-    max-width: 370px;
-    height: 282px;
+    max-width: 360px;
+    max-height: 260px;
+    object-fit: cover;
+
   }
 }
